@@ -121,21 +121,21 @@ class Game {
       this.frogger.frameX = 1;
       this.sound.play(this.sound.frogSound);
     });
-    this.downBtn.addEventListener("touchstart", () => {
+    this.downBtn.addEventListener("touchstart", (e) => {
       e.preventDefault();
       this.frogger.moveDown();
       this.createParticles();
       this.frogger.frameX = 1;
       this.sound.play(this.sound.frogSound);
     });
-    this.leftBtn.addEventListener("touchstart", () => {
+    this.leftBtn.addEventListener("touchstart", (e) => {
       e.preventDefault();
       this.frogger.moveLeft();
       this.createParticles();
       this.frogger.frameX = 1;
       this.sound.play(this.sound.frogSound);
     });
-    this.rightBtn.addEventListener("touchstart", () => {
+    this.rightBtn.addEventListener("touchstart", (e) => {
       e.preventDefault();
       this.frogger.moveRight();
       this.createParticles();
