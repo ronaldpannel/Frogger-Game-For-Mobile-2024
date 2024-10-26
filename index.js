@@ -115,24 +115,28 @@ class Game {
     this.rightBtn = document.getElementById("rightBtn");
 
     this.upBtn.addEventListener("touchstart", (e) => {
+      e.preventDefault();
       this.frogger.moveUp();
       this.createParticles();
       this.frogger.frameX = 1;
       this.sound.play(this.sound.frogSound);
     });
     this.downBtn.addEventListener("touchstart", () => {
+      e.preventDefault();
       this.frogger.moveDown();
       this.createParticles();
       this.frogger.frameX = 1;
       this.sound.play(this.sound.frogSound);
     });
     this.leftBtn.addEventListener("touchstart", () => {
+      e.preventDefault();
       this.frogger.moveLeft();
       this.createParticles();
       this.frogger.frameX = 1;
       this.sound.play(this.sound.frogSound);
     });
     this.rightBtn.addEventListener("touchstart", () => {
+      e.preventDefault();
       this.frogger.moveRight();
       this.createParticles();
       this.frogger.frameX = 1;

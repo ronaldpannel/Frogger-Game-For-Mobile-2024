@@ -20,6 +20,7 @@ body {
   transform: translate(-50%, -50%);
   max-width: 100%;
   max-height: 100%;
+  touch-action: none;
 }
 .canvas2 {
   width: 600;
@@ -30,6 +31,7 @@ body {
   transform: translate(-50%, -50%);
   max-width: 100%;
   max-height: 100%;
+  touch-action: none;
 }
 .canvas3 {
   width: 600;
@@ -40,6 +42,7 @@ body {
   transform: translate(-50%, -50%);
   max-width: 100%;
   max-height: 100%;
+  touch-action: none;
 }
 .canvas4 {
   width: 600;
@@ -50,6 +53,7 @@ body {
   transform: translate(-50%, -50%);
   max-width: 100%;
   max-height: 100%;
+  touch-action: none;
 }
 .assets {
   display: none;
@@ -61,6 +65,7 @@ button {
   color: white;
   background-color: transparent;
   border: 2px solid white;
+  touch-action: none;
 }
 .controlsLeft {
   position: absolute;
@@ -68,6 +73,7 @@ button {
   left: 10px;
   display: flex;
   gap: 20px;
+  touch-action: none;
 }
 .controlsRight {
   display: flex;
@@ -77,4 +83,5 @@ button {
   right: 20px;
   display: flex;
   gap: 20px;
+  touch-action: none;
 }
